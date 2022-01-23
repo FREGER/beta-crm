@@ -1,0 +1,216 @@
+.tablesorter {
+    width: 100%;
+    color: #8181A5;
+    border-spacing: 0;
+    margin: 10px 0 15px;
+    text-align: left
+  }
+
+  thead{
+    height:48px;
+  }
+
+  .tablesorter caption.dark-row,
+  .tablesorter tr.dark-row td,
+  .tablesorter tr.dark-row th {
+    background-color: #222;
+    color: #fff;
+    padding: 2px;
+    text-align: left;
+    font-size: 14px
+  }
+  
+  .tablesorter caption,
+  .tablesorter th,
+  .tablesorter thead td {
+    background-color: rgba(245, 245, 250, 0.4);
+    padding: 4px
+  }
+  .tablesorter-headerRow{
+    padding:15px 0px !important;
+  }
+  .tablesorter .header,
+  .tablesorter .tablesorter-header {
+    background-image: url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQBAMAAADQT4M0AAAAGFBMVEUAAADu7u7u7u7u7u7u7u7u7u7u7u7u7u5jNePWAAAACHRSTlMAMxIHKwEgMWD59H4AAABSSURBVAjXY2BgYFJgAAHzYhDJ6igSAKTYBAUTgJSioKAQAwNzoaCguAFDiCAQuDIkgigxBgiA8cJAVCpQt6AgSL+JoKAzA0gjUBsQqBcBCYhFAAE/CV4zeSzxAAAAAElFTkSuQmCC);
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    white-space: normal
+  }
+  
+
+  .tablesorter tbody tr{
+    border: 0.4px solid transparent;
+  }
+  .tablesorter tbody tr:hover{
+    background: #FFFFFF;
+    border: 0.4px solid #EFF3FE !important;
+    box-shadow: 0px 4px 10px #EFF3FE;
+    position: relative;
+    color:black !important;
+    z-index: 100;
+  }
+  .tablesorter tbody tr:hover > #name{
+    color:black;
+  }
+  .tablesorter thead .headerSortUp,
+  .tablesorter thead .tablesorter-headerAsc,
+  .tablesorter thead .tablesorter-headerSortUp {
+    background-image:url(/iconz/sortAsc.svg);
+    background-repeat:no-repeat;
+  }
+  
+  .tablesorter thead .headerSortDown,
+  .tablesorter thead .tablesorter-headerDesc,
+  .tablesorter thead .tablesorter-headerSortDown {
+    background-image: url(/iconz/sortDesc.svg) ;
+    background-repeat:no-repeat;
+  }
+  
+  .tablesorter thead .sorter-false {
+    background-image: none;
+    cursor: default;
+    padding: 4px
+  }
+  
+  .tablesorter td {
+    background-color: #fff;
+    padding:9px 4px;
+    font-family: Lato;
+font-style: normal;
+font-size: 14px;
+line-height: 21px;
+  }
+  .name{
+    font-weight: bold;
+  }
+  .tablesorter thead td{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #8181A5;
+  }
+  
+  .tablesorter .tablesorter-processing {
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-image: url(data:image/gif;base64,R0lGODlhFAAUAKEAAO7u7lpaWgAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBCgACACwAAAAAFAAUAAACQZRvoIDtu1wLQUAlqKTVxqwhXIiBnDg6Y4eyx4lKW5XK7wrLeK3vbq8J2W4T4e1nMhpWrZCTt3xKZ8kgsggdJmUFACH5BAEKAAIALAcAAAALAAcAAAIUVB6ii7jajgCAuUmtovxtXnmdUAAAIfkEAQoAAgAsDQACAAcACwAAAhRUIpmHy/3gUVQAQO9NetuugCFWAAAh+QQBCgACACwNAAcABwALAAACE5QVcZjKbVo6ck2AF95m5/6BSwEAIfkEAQoAAgAsBwANAAsABwAAAhOUH3kr6QaAcSrGWe1VQl+mMUIBACH5BAEKAAIALAIADQALAAcAAAIUlICmh7ncTAgqijkruDiv7n2YUAAAIfkEAQoAAgAsAAAHAAcACwAAAhQUIGmHyedehIoqFXLKfPOAaZdWAAAh+QQFCgACACwAAAIABwALAAACFJQFcJiXb15zLYRl7cla8OtlGGgUADs=)!important
+  }
+  
+  .tablesorter .tablesorter-pager button {
+    background-color: #444;
+    color: #eee;
+    border: #555 1px solid;
+    cursor: pointer
+  }
+  
+  .tablesorter .tablesorter-pager button:hover {
+    background-color: #555
+  }
+  
+  .tablesorter tr.even>td {
+    background-color: #fff
+  }
+  
+  .tablesorter tr.odd td.primary {
+    background-color: #bfbfbf
+  }
+  
+  .tablesorter td.primary,
+  .tablesorter tr.even td.primary {
+    background-color: #d9d9d9
+  }
+  
+  .tablesorter tr.odd td.secondary {
+    background-color: #d9d9d9
+  }
+  
+  .tablesorter td.secondary,
+  .tablesorter tr.even td.secondary {
+    background-color: #e6e6e6
+  }
+  
+  .tablesorter tr.odd td.tertiary {
+    background-color: #e6e6e6
+  }
+  
+  .tablesorter td.tertiary,
+  .tablesorter tr.even td.tertiary {
+    background-color: #f2f2f2
+  }
+  
+  .tablesorter .tablesorter-filter-row {
+    background-color: #eee
+  }
+  
+  .tablesorter .tablesorter-filter-row td {
+    background-color: #eee;
+    line-height: normal;
+    text-align: center;
+    -webkit-transition: line-height .1s ease;
+    -moz-transition: line-height .1s ease;
+    -o-transition: line-height .1s ease;
+    transition: line-height .1s ease
+  }
+  
+  .tablesorter .tablesorter-filter-row .disabled {
+    opacity: .5;
+    cursor: not-allowed
+  }
+  
+  .tablesorter .tablesorter-filter-row.hideme td {
+    padding: 2px;
+    margin: 0;
+    line-height: 0;
+    cursor: pointer
+  }
+  
+  .tablesorter .tablesorter-filter-row.hideme * {
+    height: 1px;
+    min-height: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0
+  }
+  
+  .tablesorter input.tablesorter-filter,
+  .tablesorter select.tablesorter-filter {
+    width: 95%;
+    height: auto;
+    margin: 0;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: height .1s ease;
+    -moz-transition: height .1s ease;
+    -o-transition: height .1s ease;
+    transition: height .1s ease
+  }
+  
+  .tablesorter .filtered {
+    display: none
+  }
+  
+  
+  
+  
+  .tablesorter .tablesorter-errorRow td {
+    text-align: center;
+    cursor: pointer;
+    background-color: #e6bf99
+  }
+  
+  
+  .name{
+    width: 240px;
+  }

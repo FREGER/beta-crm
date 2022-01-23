@@ -1,0 +1,243 @@
+.body{
+    width:100%;
+    margin-left: 1%;
+    margin-top:26px;
+  }
+  .bottom_section, .top_section{
+    width:100%;
+    height:380px;
+    display: flex;
+    margin-bottom:15px;
+  }
+  .graphic, .research{
+    height:100%;
+    width:48%;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F3;
+    border-radius: 12px;
+  }
+  .mistakes, .seo{
+    height:100%;
+    width:24%;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F3;
+    border-radius: 12px;
+    position:relative;
+  }
+  .bal_sub_ach{
+    height:100%;
+    width:24%;
+  }
+.bal{
+  height:98px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F3;
+  border-radius: 12px;
+  margin-bottom:19px;
+  display: flex;
+}
+.sub{
+  height:98px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F3;
+  border-radius: 12px;
+  margin-bottom:19px;
+  display: flex;
+}
+.ach{
+  height:146px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F3;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+  .graphic, .research,.mistakes, .seo{
+    margin-right:1%;
+  }
+  .main_text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    
+    
+    color: #1C1D21;
+  }
+  .top_text{
+      padding-left:23px;
+      padding-right:23px;
+      padding-top: 23px;
+      display:flex;
+      position: relative;
+      align-items: center;
+      margin-bottom: 25px;
+  }
+  .border_r{
+    background: #F5F5FB;
+    border-radius: 6px;
+    padding-top:8px;
+    padding-left:11px;
+    height:40px;
+    width:40px;
+    margin-left:20px;
+    position: absolute;
+    right:23px;
+  }
+  .icc{
+    margin-top:2px;
+    width:18px; 
+    height:17px;
+    filter: invert(51%) sepia(6%) saturate(1479%) hue-rotate(201deg) brightness(99%) contrast(96%);
+  }
+  .her{
+    border: 1px solid #EEEEEE;
+transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  #hr_bottom{
+    position:absolute;
+    bottom:90px;
+    max-width:100%;
+    left:26px;
+    right:26px;
+  }
+  #button_sub{
+    background: #5E81F4;
+border-radius: 8px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+/* Bg / #FFFFFF */
+
+color: #FFFFFF;
+padding:10px;
+border:none;
+margin-top:35px;
+margin-left:40%;
+  }
+
+  .tab_1_row{
+    width:50%;
+    text-align: center;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+border-right:1px solid #ECECF2;
+
+color: #1C1D21;
+height:24px;
+
+  }
+  .tab_2_row{
+    width:50%;
+    text-align: center;
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* or 150% */
+border-left:1px solid #ECECF2;
+height:24px;
+
+
+color: #1C1D21;
+  }
+  .seo table{
+    width:100%;
+    border:none;
+    border-collapse: collapse;
+  }
+  .seo table thead{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Bg / #8181A5 */
+
+color: #8181A5;
+  }
+  .seo table th{
+    border-bottom:1px solid #ECECF2;
+  }
+  .right_ico{
+    max-width:40%;
+    min-width:82px;
+  }
+  .left_texxt{
+    width:100%;
+    margin-top:21px;
+    margin-left:25px;
+  }
+  .cci{
+    margin-top:2px;
+    width:22px; 
+    height:22px;
+    filter: invert(43%) sepia(57%) saturate(2030%) hue-rotate(210deg) brightness(103%) contrast(91%);
+  }
+  .cii_background{
+    width:56px;
+    height:56px;
+border-radius: 10px;
+padding:19px;
+margin-top:21px;
+  }
+  .bal_top_text{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Bg / #8181A5 */
+
+color: #8181A5;
+  }
+  .bal_bot_text{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+
+/* Bg / #1C1D21 */
+
+color: #1C1D21;
+
+  }
+  .achievement_background{
+    margin-top:15px;
+    background: #FFF2DE;
+    border-radius: 8px;
+    width:42px;
+    height:50px;
+    padding:13px 8px;
+  }
+  .achievement{
+    width:25px;
+    height:22px;
+    
+  }

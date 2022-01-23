@@ -1,0 +1,262 @@
+.header{
+width:100%;
+text-align: center;
+}
+@font-face {
+	font-family: "Exo2-MediumItalic";
+	src: url("../fonts/Exo2-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Exo2-Bold";
+	src: url("../fonts/Exo2-Bold.ttf");
+}
+@font-face {
+	font-family: "Exo2-BoldItalic";
+	src: url("../fonts/Exo2-BoldItalic.ttf");
+}
+#block-body {
+    color:#191919;
+}
+.header {
+   min-height: 100px;
+   background-color: #191919;
+   border-radius: 15px;
+}
+body{
+    background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 33%,#FF9966 55%, #0099FF 100%);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+@keyframes Gradient {
+    0% {
+    background-position: 0% 0%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 0%;
+    }}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif; /* Шрифт с засечками */
+    font-style: italic; /* Курсивное начертание */
+    font-size: 40px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.use {
+    color: #aef39a;
+
+}
+.web {
+    color: #47dde2;
+}
+#aufer{
+    color:#c869ff;
+}
+.logo{
+    text-align: center;
+}
+.logo p {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+.top-menu {
+    width: 685px;
+    height: 80px;
+    float: left;
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.top-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Ubuntu";
+    font-size: 25px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    background: #ffa500;
+}
+.block-top-auth {
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+    height: 80px;
+}
+.block-top-auth p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+.block-top-auth a {
+    text-decoration: none;
+    color: white;
+    font-family:  "Helvetica";
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.block-top-auth a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #ffa500;
+
+}
+.box button[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box button[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+  .box{
+      padding-bottom: 1px;
+  }
+#fri{
+    font-size:110%;
+    position: absolute;
+    margin:auto;
+    left:25px;
+    top:12px;
+    text-decoration: none;
+}
+#frick{
+    text-decoration: none;
+    color:#3498db;
+}
+@media screen and (max-width: 599px) {
+    .nav{
+        display: none;        
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    #frick{
+        display: none;
+    }
+
+      }
+
+  @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+  body {
+
+      overflow-x: hidden;
+  }
+  .navigation {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      opacity: .9;
+      overflow-x: hidden;
+      padding-top: 60px;
+      transition: 0.7s;
+  }
+  .navigation a {
+      display: block;
+      padding:20 30;
+      text-decoration: none;
+      color:#3498db;
+      font-family: 'Alegreya Sans', sans-serif;
+  }
+  .navigation a:hover {
+    color:#b7e0fc;
+      transition: 0.4s;
+  }
+  .navigation .close {
+      position: absolute;
+      top: 0;
+      right: 22px;
+      margin-left: 50px;
+      font-size: 30px
+  }
+  .slide a {
+      color: #000;
+      font-size: 36px;
+  }
+  #content {
+      transition: margin-left 0.7s;
+      overflow: hidden;
+      width: 100%;
+  }
+  
+  
+  
+  .p{
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav{
+    height:40px;
+    background: rgb(0, 255, 157);
+    text-align: center;
+    justify-content: center;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius:15px ;
+    position: relative;
+    margin: 0 auto;
+
+}
+.nav ul{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-53%);
+    margin-top: 0;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    float:left;
+    display:block;
+    padding: 11px 20px;
+    float:left;
+}
+.nav ul li a:hover{
+    background-color:white;
+}
+.profile{
+    color:white;
+}

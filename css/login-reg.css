@@ -1,0 +1,215 @@
+html {
+    height: 100%;
+  }
+body{
+    background: #5E81F4;
+    margin:0px;
+    padding:0px;
+    height:100%;
+    display: flex;
+}
+.form{
+    width:60%;
+    min-width:500px;
+    background: #FFFFFF;
+border-radius: 0px 16px 16px 0px;
+height:100%;
+
+}
+.form h1{
+    margin:0px;
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 42px;
+/* or 131% */
+
+
+/* Bg / #1C1D21 */
+
+color: #1C1D21;
+}
+.img{
+    z-index:-10;
+    right:0px;
+    width:40%;
+    height:100%;
+    position: absolute;
+}
+.inform{
+    padding-left:20%;
+    padding-top:13%;
+}
+form{
+padding-left:10%;
+padding-top:4%;
+}
+#ent{
+    /* Text / 14px / Regular */
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Bg / #8181A5 */
+
+color: #8181A5;
+margin-bottom:82px;
+}
+form input[type="email"], form input[type="password"], form input[type="text"]{
+    border:none;
+    outline: none;
+    /* Text / 14px / Bold */
+    width:95%;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Bg / #1C1D21 */
+
+color: #1C1D21;
+
+}
+form input[type="email"]::placeholder, form input[type="password"]::placeholder{
+/* Text / 14px / Bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Bg / #8181A5 */
+
+color: #8181A5;
+}
+.sub_nbr{
+    background: linear-gradient(0deg, rgba(94, 129, 244, 0.1), rgba(94, 129, 244, 0.1)), #FFFFFF;
+border-radius: 8px;
+border:none;
+width:176px;
+height:46px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+/* Bg / #5E81F4 */
+
+color: #5E81F4;
+
+}
+
+.sub_br{
+    background: #5E81F4;
+    border-radius: 8px;
+border:none;
+width:176px;
+height:46px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+/* Bg / #FFFFFF */
+
+color: #FFFFFF;
+
+}
+
+#remember{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+#remember:checked {
+    background: #5E81F4;
+}
+.remember{
+    /* Text / 14px / Bold */
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Bg / #1C1D21 */
+
+color: #1C1D21;
+}
+.for{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Bg / #8181A5 */
+
+color: #8181A5;
+margin-bottom:5px;
+margin-left:2px;
+}
+.email_ic{
+    position:absolute;
+    right:0;
+}
+.pass_ic{
+    position:absolute;
+    right:2px;
+    
+}
+.hr{
+    
+    border-collapse: collapse;
+    width:361px;
+    border:1px solid #ECECF2;
+    margin:0px;
+    margin-top:12px;
+}
+#restore{
+    font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #5E81F4;
+margin-top:3px;
+margin-left:100px;
+margin-bottom:38px;
+text-decoration: none;
+}
